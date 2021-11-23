@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="image" href="MySite.css" />
+    <title>MtSite</title>
+  </head>
+
+  <body>
+    <div class="header">
+    </div>
+  </body>
+</html>
