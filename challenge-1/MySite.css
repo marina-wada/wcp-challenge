@@ -4,4 +4,21 @@ header {
   background-color: #ec715f;
 }
 
-.navi
+.header-main {
+  width: 1024px;
+}
+
+.site-name {
+}
+
+.nav-list {
+  text-align: right;
+}
+
+.nav-list-item {
+  font-size: 16px;
+  color: #fafafa;
+  padding: 30px;
+  list-style: none;
+  display: inline-block;
+}
