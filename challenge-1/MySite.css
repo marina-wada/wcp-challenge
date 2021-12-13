@@ -38,3 +38,22 @@ a {
   text-decoration: none;
   color: #fafafa;
 }
+
+main {
+  height: 650px;
+}
+
+.main-visual {
+  margin-top: 200px;
+}
+
+.top {
+  font-size: 64px;
+  color: #fafafa;
+  margin-bottom: 10px;
+}
+
+.sub {
+  font-size: 20px;
+  color: #fafafa;
+}
