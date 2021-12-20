@@ -41,19 +41,26 @@ a {
 
 main {
   height: 650px;
+  width: 100%;
+  text-align: center;
+  color: #fafafa;
+  text-align: center;
+  background-image: url(img/mv.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
 }
 
 .main-visual {
-  margin-top: 200px;
+  margin: 0 auto;
 }
-
-.top {
+.title {
+  padding-top: 200px;
   font-size: 64px;
-  color: #fafafa;
   margin-bottom: 10px;
 }
 
 .sub {
+  padding-top: 10px;
   font-size: 20px;
-  color: #fafafa;
 }
