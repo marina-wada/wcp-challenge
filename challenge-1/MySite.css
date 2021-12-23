@@ -44,7 +44,6 @@ main {
   width: 100%;
   text-align: center;
   color: #fafafa;
-  text-align: center;
   background-image: url(img/mv.png);
   background-size: cover;
   background-position: center;
@@ -63,4 +62,10 @@ main {
 .sub {
   padding-top: 10px;
   font-size: 20px;
+}
+
+.portfolio {
+  width: 920px;
+  background-color: #eceff1;
+  text-align: center;
 }
