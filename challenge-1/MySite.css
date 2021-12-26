@@ -64,8 +64,18 @@ main {
   font-size: 20px;
 }
 
-.portfolio {
+portfolio {
   width: 920px;
   background-color: #eceff1;
+}
+
+.portfolio-visual {
+  margin: 0 auto;
+}
+
+.p-title {
+  font-size: 32px;
+  color: #000;
+  padding-top: 90px;
   text-align: center;
 }
