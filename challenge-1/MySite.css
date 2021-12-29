@@ -64,12 +64,12 @@ main {
   font-size: 20px;
 }
 
-portfolio {
+.portfolio {
   width: 920px;
-  background-color: #eceff1;
 }
 
 .portfolio-visual {
+  background-color: #eceff1;
   margin: 0 auto;
 }
 
@@ -78,4 +78,17 @@ portfolio {
   color: #000;
   padding-top: 90px;
   text-align: center;
+}
+
+.p-title::after {
+  content: "";
+  display: block;
+  background-color: #ec715f;
+  margin: 8px auto 0 auto;
+  height: 3px;
+  width: 70px;
+}
+
+.p-sub {
+  padding: 30px;
 }
