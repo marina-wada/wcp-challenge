@@ -96,9 +96,39 @@ main {
   color: #000;
 }
 
+.portfolio-image {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px 10px 90px 10px;
+  margin: 0 auto;
+}
 .image-box {
   width: 300px;
   height: 250px;
-  margin: 30px 0 90px 0;
-  padding: 10px;
+
+  background-size: cover;
+}
+
+.image-box:nth-child(1) {
+  background-image: url(img/sketch.jpg);
+}
+
+.image-box:nth-child(2) {
+  background-image: url(img/websuku.png);
+}
+
+.image-box:nth-child(3) {
+  background-image: url(img/write.jpg);
+}
+
+.image-box:nth-child(4) {
+  background-image: url(img/webcamp.png);
+}
+
+.image-box:nth-child(5) {
+  background-image: url(img/talk.jpg);
+}
+
+.image-box:nth-child(6) {
+  background-image: url(img/webcamp-mother.png);
 }
