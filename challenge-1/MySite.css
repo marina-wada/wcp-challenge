@@ -15,6 +15,7 @@ header {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .logo {
@@ -240,4 +241,15 @@ main {
   font-size: 16px;
   color: #fafafa;
   background-color: #ec715f;
+}
+
+@media screen and (max-width: 90%) {
+  header {
+    width: 90%;
+    height: 50px;
+  }
+
+  .nav {
+    position: fixed;
+  }
 }
